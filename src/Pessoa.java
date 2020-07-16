@@ -4,13 +4,14 @@ public class Pessoa {
 	private static int registro;
 	
 	
-	public Pessoa() {
+	public Pessoa(String nome) {
+		this.nome = nome;
 		registro++;
 	}
-	public void setPessoa(String nome) {
+	public void setNome(String nome) {
 		this.nome = nome;
 	}
-	public String getPessoa() {
+	public String getNome() {
 			return nome;
 		}
 }

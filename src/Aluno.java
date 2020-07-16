@@ -4,11 +4,10 @@ public class Aluno extends Pessoa {
 	private int idade;
 	private int serie;
 	
-	public Aluno() {
-	}
-
-	public void setIdade(int idade) {
+	public Aluno(int idade, int serie, String nome) {
+		super(nome);
 		this.idade = idade;
+		this.serie = serie;
 	}
 
 	public int getIdade() {

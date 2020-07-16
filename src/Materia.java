@@ -13,11 +13,11 @@ public class Materia {
 		this.totalnota = prova1+prova2+prova3;
 	}
 	
-	public void setMateria(String materia) {
+	public void setDisciplina(String materia) {
 		this.disciplina = materia;
 	}
 
-	public String getMateria() {
+	public String getDisciplina() {
 		return disciplina;
 	}
 	public double getTotalNota() {
