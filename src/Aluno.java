@@ -1,22 +1,16 @@
 
-public class Aluno {
-	private String nome;
-	private static int matricula;
+public class Aluno extends Pessoa {
+
 	private int idade;
-
+	private int serie;
+	
 	public Aluno() {
-		matricula++;
 	}
 
-	public void setAluno(String nome) {
-		this.nome = nome;
-	}
 	public void setIdade(int idade) {
 		this.idade = idade;
 	}
-	public String getAluno() {
-		return nome;
-	}
+
 	public int getIdade() {
 		return idade;
 	}
